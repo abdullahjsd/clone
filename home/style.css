@@ -152,5 +152,7 @@ body{
     .newBtn p{
         display: none;
    }
-   
+   .n_logo{
+    width: 75px;
+   }
   }
