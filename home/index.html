@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>My Netflix Clon</title>
-
 </head>
-<body >
-    <!-- H E A D E R START-->
-    <header class="container-fluid mt-3">
-        <div class="row  text-white d-flex align-items-center">
-            <div class="col-6 mb-3 n_logo"><img src="/img/netflix-logo.png" alt="" width="175px" ></div> <!-- buraya neflix imges yerleştirilecek-->
-            <div class="col-6 d-flex justify-content-end ">
+<body>
+<!-- H E A D E R START-->
+    <header class="container-fluid mt-2 ">
+        <div class="row  text-white d-flex align-items-center ">
+            <div class="col-4 mb-3 n_logo ">
+                <img src="/img/netflix-logo.png" alt="Netflix logo" >
+            </div>
+            <div class="col-8 d-flex justify-content-end ">
                 <div class="dropdown-center">
                     <button class="btn border border-secondary text-white dropdown-toggle newBtn me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-globe fa-beat mx-1"></i><p>Türkçe</p> 
+                        <i class="fa-solid fa-globe fa-beat pe-2 "></i><p>Türkçe</p> 
                     </button>
                     <ul class="dropdown-menu bg-white p-0 ">
                       <li><a class="dropdown-item p-0 tr" href="#">Türkçe</a></li>
@@ -29,72 +30,84 @@
             </div>
         </div>
     </header>
-    <!-- H E A D E R AND -->
+<!-- H E A D E R AND -->
     <!--/**************************/-->
     <!-- S E C T İ O N  ONE  START-->
-    <section class="container-fluit  mb-4 " >
-        <div class="parent container-fluit">
-            <div class="bgimg  rounded-4 d-flex align-items-center"> <!-- NETFLİX BACKGROUND İMAGES-->
-                <div class="row fs-5 text-white fw-bold">
-                    <div class="col-sm-12 col-md-6 ms-md-5 n_bold">
-                        <h1 class="t_img">Sınırsız film, dizi ve çok daha fazlası</h1>
-                        <h4 class="fw-bold mt-3"> İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</h4>
-                        <p class="mt-4">İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi girin.</p>
-                        <form class="d-flex text-white mt-2 w-80" role="search">
-                            <input class="placehol form-control me-2  bg-transparent text-white " type="email" placeholder="E-posta adresi" aria-label="email">
-                            <button class="btn btn-danger   fs-5 py-2 btnNav" type="submit">Başlayın <i class="fa-solid fa-chevron-right fa-beat"></i></button>
-                        </form>
-                    </div>
-                   
+    <section class="container-fluid mb-4">
+        <div class="bgimg  rounded-4 d-flex align-items-center"> 
+            <div class="row fs-5 text-white fw-bold">
+                <div class="col-11 col-sm-11 col-md-6 ms-3 ms-md-5 mt-sm-5 mb-sm-5 fs-5 ">
+                    <h1 class="t_img mt-sm-5 p-1 myfont">Sınırsız film, dizi ve çok daha fazlası</h1>
+                    <h4 class="mt-3 myfont-1"> İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</h4>
+                    <p class="mt-4 myfont-2">İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi girin.</p>
+                    <form class="d-sm-flex  text-white mt-sm-2 mb-sm-5 mb-5 " role="search">
+                        <input class="placehol form-control me-2  bg-transparent text-white  " type="email" placeholder="E-posta adresi" aria-label="email">
+                        <button class="btn btn-danger  py-2 btnNav mt-3 mt-sm-0" type="submit">Başlayın <i class="fa-solid fa-chevron-right fa-beat"></i></button>
+                    </form>
                 </div>
+               <div class="col"></div>
             </div>
-        </div>
-       
+        </div> 
     </section>
      <!--/**************************/-->
     <!-- S E C T İ O N  TWO  START-->
     <!--img and write1 -->
     <section class="container-fluid gradient rounded-3 mb-3 ">
-        <div class="row text-white d-flex justify-content-center mt-5 b_bottom_B .reverse">
-            <div class=" col-11 col-md-5 col-xl-5 mt-5 fs-6 fw-bold ">
-                <h1 class="fonts_1 my-3">Televizyonunuzda izleyin</h1>
+        <div class="row text-white justify-content-center  mt-sm-5 b_bottom_B container">
+            <div class=" col-11 col-md-6  fs-6 fw-bold write p-sm-5">
+                <h1 class="fonts_1 mt-xl-5">Televizyonunuzda izleyin</h1>
                 <p>Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.</p>
             </div>
-            <div class="col-12 col-md-7 col-xl-5 d-flex justify-content-center mt-3 ">
-                <div class="television images"></div>
+            <div class="col-12 col-md-6">
+                <div class="img ">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png" alt="" >
+                </div>
             </div>
         </div>
-        <!--img and write 2 -->
-        <div class="row text-white d-flex justify-content-center mt-5 b_bottom_B">
-            <div class=" col-12 col-md-7 col-xl-5 mt-3">
-                <div class="mobile images"></div>
+        <div class="row text-white justify-content-center  mt-sm-5 b_bottom_B container">
+            <div class="col-12 col-md-6">
+                <div class="img ">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png" alt="" >
+                </div>
             </div>
-            <div class="col-11 col-md-5 col-xl-5 mt-5 fs-6 fw-bold ">
-                <h1 class="fonts_1 my-3">İstediğiniz her yerde izleyin</h1>
+            <div class=" col-11 col-md-6  fs-6 fw-bold write p-sm-5">
+                <h1 class="fonts_1 mt-sm-5">İstediğiniz her yerde izleyin</h1>
                 <p>Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.</p>
             </div>
         </div>
-        <!--img and write 3 -->
-        <div class="row text-white d-flex justify-content-center mt-5 b_bottom_B">
-            <div class="col-11 col-md-5 col-xl-5 mt-5 fs-6 fw-bold ">
-                <h1 class="fonts_1 my-3">Çocuklarınız için profiller oluşturun</h1>
+
+        <div class="row text-white justify-content-center  mt-sm-5 b_bottom_B container">
+            <div class=" col-11 col-md-6  fs-6 fw-bold write p-sm-5">
+                <h1 class="fonts_1 mt-xl-5">Çocuklarınız için profiller oluşturun</h1>
                 <p>Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir.</p>
             </div>
-            <div class="col-12 col-md-7 col-xl-5 mt-3">
-                <div class="child images"></div>
+            <div class="col-12 col-md-6">
+                <div class="img ">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/tr.png" alt="" >
+                </div>
             </div>
         </div>
-        <!--img and write 4 -->
-        <div class="row text-white d-flex justify-content-center mt-5 ">
-            <div class="col-12 col-md-7 col-xl-5 mt-3">
-                <div class="online images"></div>
+        <div class="row text-white justify-content-center  mt-sm-5 b_bottom_B container">
+            <div class="col-12 col-md-6">
+                <div class="img ">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/tr.png" alt="" >
+                </div>
             </div>
-            <div class="col-11 col-md-5 col-xl-5 mt-5 fs-6 fw-bold ">
-                <h1 class="fonts_1 my-3">Çevrimdışı izlemek için içerikleri indirin</h1>
+            <div class=" col-11 col-md-6  fs-6 fw-bold write p-sm-5">
+                <h1 class="fonts_1 mt-sm-5">Çevrimdışı izlemek için içerikleri indirin</h1>
                 <p>En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</p>
             </div>
         </div>
 
+
+    </section>
+        <!-- buradan sonra sı düzeltilecek-->
+    <!--/**************************/-->
+    <!-- S E C T İ O N  TWO  START-->
+    <!--img and write1 -->
+    
+       
+        
     </section>
 
     <!--/**************************/-->
@@ -264,10 +277,23 @@
             
           </footer>
     </section>
- 
+
+
+
+
+
+
+
 
  
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ 
+
+
+
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
