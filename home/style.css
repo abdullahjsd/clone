@@ -97,26 +97,27 @@ body{
     max-width:100%;
     
 }
-.images{
-    max-width:100px ;
-    height:400px;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center;
-    margin-top: -50px;
- }   
-
-.mobile{
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png);
+.accordion-body{
+    background-color:rgb(19, 29, 59)  ;
+    color: white;
+    font-size: 1.4rem;
 }
-.child{
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/tr.png);
+.accordion-button{
+    background-color:rgb(22, 34, 70)  ;
+    color: white;
+    font-size: 1.5rem;
 }
-.online{
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/tr.png);
+.accordion-button:not(.collapsed){
+    background-color:rgb(22, 34, 70) ;
+    color: white;
 }
+.accordion-button:hover{
+    background-color:rgb(34, 51, 98) ;
 
-
+}
+.myseoarch{
+     width: 50%;
+}
 
 
 
@@ -156,7 +157,22 @@ body{
     .fonts_1{
         font-size: 2rem;
     }
+    .myseoarch{
+        width: 80% ;
+    }
+    
 }
+
+
+@media only screen and (max-width: 800px) {
+    .reverse{
+        display: block;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 750px) {
     .n_logo img{
         max-width: 150px;
@@ -187,9 +203,19 @@ body{
     }
     .write{
         max-width: 95%;
-        margin-left: 2rem;
+        margin: 1rem .5rem;
+        padding: 0;
     }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .myseoarch{
+        width: 100% ;
+    }
+
 }
+
 
 @media only screen and (max-width: 500px) {
     .container-fluid{
@@ -211,88 +237,15 @@ body{
 
 
 
-
-
-/*****************************************/
-/************************************/
-
-
+ 
 
 
 /******************************************/
 /***** S E C T İ O N  three  START********/
-.myPadding li a{
+.myPadding li a{    
     display: inline-block;
-    padding-bottom: 1rem;
-    color: white;
-}
-
-
-
-/******************************************************/
-/**************** @media only screen ******************/
-@media only screen and (max-width: 950px) {
-    .w-80{
-        width: 100%;
-    }
-    .fonts_1{
-        font-size: 2rem;
-    }
-  }
-@media only screen and (max-width: 768px) {
-    .t_img{
-        font-size: 3rem;
-        font-weight: 750;
-    }
-    .w-80{
-        width: 100%;
-    }
-    .n_bold{
-        font-weight: 100;
-    }
-    .col-sm-12{
-        width: 80%;
-        margin: auto;
-    }
-    .reverse{
-        display: flex;
-        flex-direction: row;
-        flex-direction: row-reverse; 
-    }
-   
-  }
-  @media only screen and (max-width: 768px) {
-    .reverse{
-        display: flex;
-        flex-direction: column-reverse; 
-    }
-   
-  }
-  @media only screen and (max-width: 630px) {
-   .n_bold{
-    width:95%;
-   }
-    .ms-5{
-    margin-left: 0px;
-   }
-    .newBtn p{
-        display: none;
-   }
-   .n_logo{
-    width: 75px;
-   }
-  }
-
-
-
-
-
  
-
-
-
-
-
+}
 
 
 
