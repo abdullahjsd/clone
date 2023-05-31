@@ -5,6 +5,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;   
 }
+.form-control-lg{
+    font-size: 1rem;
+}
 .card{
     background-color:rgba(0,0,0,.75);
 }
@@ -37,3 +40,14 @@ body{
     color: white;
     font-weight: bold;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    
+  }
