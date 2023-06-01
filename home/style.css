@@ -118,6 +118,20 @@ body{
 .myseoarch{
      width: 50%;
 }
+/**********************************/
+/********  F O O T E R  ************/
+.parentt ul li{
+    margin-top: 1rem;
+}
+.parentt ul li a{
+    color:gray;
+    text-decoration: none;
+}
+.parentt ul li a:hover{
+    color:wheat;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
 
 
 

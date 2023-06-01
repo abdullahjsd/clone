@@ -40,7 +40,20 @@ body{
     color: white;
     font-weight: bold;
 }
-
+/**********************/
+/** f o o t h e r    ***/
+.parent ul li{
+    margin-top: 1rem;
+}
+.parent ul li a{
+    color:gray;
+    text-decoration: none;
+}
+.parent ul li a:hover{
+    color:wheat;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
 
 
 
